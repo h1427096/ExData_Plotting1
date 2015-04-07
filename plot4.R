@@ -28,7 +28,7 @@ plot(x = data$Time, y = data$Sub_metering_1, type="l", xlab = "", ylab = "Energy
 lines(x = data$Time, y = data$Sub_metering_2, col="red", type="l");
 lines(x = data$Time, y = data$Sub_metering_3, col="blue", type="l");
 #legend
-legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black","red", "blue"), lty=c(1,1), bty="n")
+legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black","red", "blue"), lty=c(1,1,1), bty="n")
 
 plot(x = data$Time, y = data$Global_reactive_power, type="l", xlab = "datetime", ylab = "Global_reactive_power")
 
